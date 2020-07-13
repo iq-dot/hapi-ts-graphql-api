@@ -1,0 +1,42 @@
+lib-cov
+*.seed
+*.log
+*.out
+*.pid
+*.gz
+*.zip
+*.swp
+
+pids
+logs
+results
+tmp
+
+# temp build outputs
+.cache
+tsconfig.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Coverage reports
+coverage
+
+# API keys and secrets
+.env
+
+# Dependency directory
+node_modules
+
+# Editors
+.idea
+.vscode
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*

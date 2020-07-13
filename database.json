@@ -1,0 +1,26 @@
+{
+    "dev": {
+        "driver": "pg",
+        "user": "postgres",
+        "password": "password",
+        "host": "localhost",
+        "database": "dev"
+    },
+
+    "dev-test": {
+        "driver": "pg",
+        "user": "postgres",
+        "password": "password",
+        "host": "localhost",
+        "database": "test"
+    },
+
+    "prod": {
+        "driver": "pg",
+        "user": {"ENV": "PGUSER"},
+        "password": {"ENV": "PGPASSWORD"},
+        "host": {"ENV": "PGHOST"},
+        "port": {"ENV": "PGPORT"},
+        "database": {"ENV": "PGDATABASE"}
+    }
+}

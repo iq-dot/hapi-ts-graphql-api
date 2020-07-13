@@ -1,0 +1,11 @@
+*.html
+*.yml
+*.json
+*.tsbuildinfo
+
+dist
+migrations
+node_modules
+.cache
+.vscode
+.idea
